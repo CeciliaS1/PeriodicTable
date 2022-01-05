@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#tabla {
+}
+#elemento {
+  width: 25%;
+}
+.elemento {
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  border: 1px solid white;
+  position: relative;
+}
+.numeroAtomico {
+  float: right;
+  font-size: medium;
+}
+.masaAtomica {
+  float: left;
+  font-size: xx-small;
+}
+.nombre {
+  text-align: center;
+  font-size: x-small;
+  bottom: 4px;
+  position: absolute;
+}
+.columnas {
+  display: flex;
+
+  align-items: end;
+}
+.simbolo {
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-size: large;
+}
